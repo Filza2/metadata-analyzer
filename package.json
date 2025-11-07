@@ -1,0 +1,35 @@
+{
+  "name": "metadata-analyzer",
+  "version": "1.0.0",
+  "description": "A secure CLI tool to inspect, clean, and analyze image metadata using exiftool-vendored with smart malware detection.",
+  "type": "module",
+  "bin": {
+    "metadata-analyzer": "./index.mjs"
+  },
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"No tests yet\""
+  },
+  "author": "Filza2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Filza2/metadata-analyzer"
+  },
+  "keywords": [
+    "metadata",
+    "exiftool",
+    "image-analysis",
+    "cli-tool",
+    "security",
+    "privacy",
+    "forensics",
+    "javascript"
+  ],
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "cli-table3": "^0.6.5",
+    "exiftool-vendored": "^15.12.1",
+    "minimist": "^1.2.8"
+  }
+}
